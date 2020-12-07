@@ -1,0 +1,43 @@
+:root {
+  --default-theme-color: #4682b4;
+  --default-accent-color: #f96f35;
+  --actual-theme-color: var(--theme-color, var(--default-theme-color));
+  --actual-accent-color: var(--accent-color, var(--default-accent-color));
+}
+body {
+  background-image: var(--background-image);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: left top;
+  background-size: 25px auto;
+  max-width: 1024px;
+}
+#respec-ui,
+div.head h2:last-of-type,
+div.head p {
+  display: none;
+}
+h4,
+h5,
+h6 {
+  color: var(--heading-text);
+}
+code {
+  color: var(--actual-accent-color);
+}
+pre code {
+  color: var(--actual-theme-color);
+}
+code.ascii,
+code.EBNF,
+code.URI {
+  color: var(--actual-theme-color);
+  font-size: 1.1em;
+}
+:root {
+  --unofficial-watermark: unset;
+  --toclink-underline: var(--actual-theme-color);
+  --toclink-visited-underline: var(--actual-theme-color);
+  --heading-text: var(--actual-theme-color);
+  --a-normal-text: var(--actual-theme-color);
+}
