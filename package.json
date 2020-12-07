@@ -1,6 +1,6 @@
 {
   "name": "respec-themeable",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Simple theme system for ReSpec",
   "main": "./index.js",
   "scripts": {

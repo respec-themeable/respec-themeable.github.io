@@ -13,14 +13,14 @@
 
 ## Demo
 
-You can view this [README](README.md) file formatted with ReSpec at: [https://respec-themeable.github.io/index.html](https://respec-themeable.github.io/index.html)
+You can view this [README](README.md) file formatted with ReSpec at: https://respec-themeable.github.io
 
 ## Installing
 
 Add the following `script` tag after your `respecConfig` declaration script tag:
 
 ```html
-<script src="//cdn.jsdelivr.net/npm/respec-themeable" class="remove"></script>
+<script src="https://unpkg.com/respec-themeable" class="remove"></script>
 ```
 
 ## Configuration
