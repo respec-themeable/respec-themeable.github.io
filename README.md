@@ -13,7 +13,7 @@
 
 ## Demo
 
-You can view this [README](README.md) file formatted with ReSpec at: https://respec-themeable.github.io
+You can view this [README](README.md) file formatted with ReSpec at: [https://respec-themeable.github.io/index.html](https://respec-themeable.github.io/index.html)
 
 ## Installing
 

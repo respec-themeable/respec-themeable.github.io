@@ -1,6 +1,6 @@
 {
   "name": "respec-themeable",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Simple theme system for ReSpec",
   "main": "./index.js",
   "scripts": {
@@ -15,7 +15,7 @@
   "bugs": {
     "url": "https://github.com/respec-themeable/respec-themeable.github.io/issues"
   },
-  "homepage": "https://respec-themeable.github.io",
+  "homepage": "https://respec-themeable.github.io/index.html",
   "keywords": [
     "respec",
     "specification",
