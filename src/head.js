@@ -1,3 +1,5 @@
+import { meta } from "./meta";
+
 export function postHead(cfg, doc) {
   // hide version entries, pointing to w3c
   const dl = doc.querySelector("div.head dl");
@@ -13,5 +15,10 @@ export function postHead(cfg, doc) {
         childs[i].style.display = "none";
       }
     }
+  }
+  if (meta.version) {
+    const ver = doc.createElement("h3");
+    ver.innerHTML = meta.version;
+    doc.querySelector("div.head").insertBefore(ver, dl);
   }
 }

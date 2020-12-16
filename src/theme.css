@@ -12,6 +12,12 @@ body {
   background-size: 25px auto;
   max-width: 1024px;
 }
+div.head h3 {
+  margin-top: 0px;
+}
+div.head h2 {
+  margin-bottom: 0.5em;
+}
 #respec-ui,
 div.head h2:last-of-type,
 div.head p {

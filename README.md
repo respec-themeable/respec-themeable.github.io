@@ -91,6 +91,22 @@ The accent color can be set using `--accent-color` CSS variable.
 }
 ```
 
+### version
+
+If there is a `version` property in manifest or package.json then it will be displayed under the subtitle.
+
+### bugs
+
+If there is a `bugs` property in manifest or package.json then it will be set with label *Issues* in the `otherLinks` configuration property.
+
+### repository
+
+If there is a `repisotroy.url` property in manifest or package.json then it will be set with label *Repository* in the `otherLinks` configuration property.
+
+### data-format
+
+You can use `nunjucks`, `handlebars` or `mustache` in `data-format` property (with data-include) for template processing external markdown files. Don't forget to provide script tag for selected template engine.
+
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](https://github.com/respec-themeable/respec-themeable.github.io/blob/main/LICENSE) for details.

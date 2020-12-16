@@ -5,6 +5,7 @@ import { prePerson } from "./person";
 import { preLogo } from "./logo";
 import { postHead } from "./head";
 import { preProps } from "./props";
+import { initTemplate } from "./template";
 
 function init(cfg) {
   if (!cfg.preProcess) {
@@ -15,6 +16,8 @@ function init(cfg) {
     cfg.postProcess = [];
   }
   cfg.postProcess.push(postProcess);
+
+  initTemplate(cfg);
 }
 
 async function preProcess(cfg, doc) {
