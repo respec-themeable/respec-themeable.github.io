@@ -2,7 +2,8 @@ import { postBackground } from "./background";
 import { preTheme } from "./theme";
 import { preMeta } from "./meta";
 import { prePerson } from "./person";
-import { preLogo } from "./logo";
+import { postLogo, preLogo } from "./logo";
+import { postToc } from "./toc";
 import { postHead } from "./head";
 import { preProps } from "./props";
 import { initTemplate } from "./template";
@@ -32,6 +33,8 @@ async function preProcess(cfg, doc) {
 function postProcess(cfg, doc) {
   postBackground(cfg, doc);
   postHead(cfg, doc);
+  postLogo(cfg, doc);
+  postToc(cfg, doc);
 }
 
 init(window.respecConfig);

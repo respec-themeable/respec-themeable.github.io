@@ -8,3 +8,11 @@ export function preLogo(cfg, doc) {
     cfg.logos = [{ alt: "Logo", id: "logo", width: 128, height: 128, src: href }];
   }
 }
+
+export function postLogo(cfg, doc) {
+  const logo = doc.querySelector("a.logo[href]");
+
+  if (logo) {
+    logo.remove();
+  }
+}
